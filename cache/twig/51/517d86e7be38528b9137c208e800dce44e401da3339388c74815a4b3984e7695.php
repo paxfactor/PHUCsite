@@ -64,20 +64,20 @@ class __TwigTemplate_fb7b8a074a65120f80f26764a0e8664e7ef6234c5265e8aa42773c76db1
         ";
         // line 70
         $this->displayBlock('footer', $context, $blocks);
-        // line 78
+        // line 79
         echo "    </div>
     <div class=\"sb-slidebar sb-left sb-width-thin\">
         <div id=\"panel\">
         ";
-        // line 81
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 81)->display($context);
         // line 82
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 82)->display($context);
+        // line 83
         echo "        </div>
     </div>
     ";
-        // line 84
+        // line 85
         $this->displayBlock('bottom', $context, $blocks);
-        // line 97
+        // line 98
         echo "</body>
 </html>
 ";
@@ -280,15 +280,16 @@ class __TwigTemplate_fb7b8a074a65120f80f26764a0e8664e7ef6234c5265e8aa42773c76db1
             <div class=\"totop\">
                 <span><a href=\"#\" id=\"toTop\"><i class=\"fa fa-arrow-up\"></i></a></span>
             </div>
+            <p>\"You can't defend. You can't prevent. The only thing you can do is detect and respond.\" - Bruce Schneier</p>
             <p><i class=\"fa fa-copyright\"></i> 2016 Phoenix Hacking Users Consortium.</p>
         </footer>
         ";
     }
 
-    // line 84
+    // line 85
     public function block_bottom($context, array $blocks = array())
     {
-        // line 85
+        // line 86
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -317,7 +318,7 @@ class __TwigTemplate_fb7b8a074a65120f80f26764a0e8664e7ef6234c5265e8aa42773c76db1
 
     public function getDebugInfo()
     {
-        return array (  292 => 85,  289 => 84,  279 => 71,  276 => 70,  271 => 66,  266 => 67,  264 => 66,  259 => 65,  256 => 64,  251 => 62,  247 => 56,  244 => 55,  241 => 54,  236 => 50,  229 => 57,  226 => 54,  223 => 53,  220 => 52,  217 => 51,  215 => 50,  207 => 47,  203 => 45,  200 => 44,  196 => 37,  193 => 36,  190 => 35,  187 => 34,  184 => 33,  181 => 32,  177 => 29,  174 => 28,  171 => 27,  168 => 26,  165 => 25,  162 => 24,  159 => 23,  157 => 22,  154 => 21,  151 => 20,  148 => 19,  145 => 18,  142 => 17,  139 => 16,  136 => 15,  133 => 14,  125 => 38,  123 => 32,  117 => 30,  115 => 14,  110 => 12,  106 => 11,  103 => 10,  101 => 9,  93 => 8,  90 => 7,  87 => 6,  81 => 97,  79 => 84,  75 => 82,  73 => 81,  68 => 78,  66 => 70,  63 => 69,  61 => 64,  58 => 63,  56 => 62,  53 => 61,  51 => 44,  46 => 42,  43 => 41,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  293 => 86,  290 => 85,  279 => 71,  276 => 70,  271 => 66,  266 => 67,  264 => 66,  259 => 65,  256 => 64,  251 => 62,  247 => 56,  244 => 55,  241 => 54,  236 => 50,  229 => 57,  226 => 54,  223 => 53,  220 => 52,  217 => 51,  215 => 50,  207 => 47,  203 => 45,  200 => 44,  196 => 37,  193 => 36,  190 => 35,  187 => 34,  184 => 33,  181 => 32,  177 => 29,  174 => 28,  171 => 27,  168 => 26,  165 => 25,  162 => 24,  159 => 23,  157 => 22,  154 => 21,  151 => 20,  148 => 19,  145 => 18,  142 => 17,  139 => 16,  136 => 15,  133 => 14,  125 => 38,  123 => 32,  117 => 30,  115 => 14,  110 => 12,  106 => 11,  103 => 10,  101 => 9,  93 => 8,  90 => 7,  87 => 6,  81 => 98,  79 => 85,  75 => 83,  73 => 82,  68 => 79,  66 => 70,  63 => 69,  61 => 64,  58 => 63,  56 => 62,  53 => 61,  51 => 44,  46 => 42,  43 => 41,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -394,6 +395,7 @@ class __TwigTemplate_fb7b8a074a65120f80f26764a0e8664e7ef6234c5265e8aa42773c76db1
 /*             <div class="totop">*/
 /*                 <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>*/
 /*             </div>*/
+/*             <p>"You can't defend. You can't prevent. The only thing you can do is detect and respond." - Bruce Schneier</p>*/
 /*             <p><i class="fa fa-copyright"></i> 2016 Phoenix Hacking Users Consortium.</p>*/
 /*         </footer>*/
 /*         {% endblock %}*/
